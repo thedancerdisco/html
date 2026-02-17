@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+        }
+img{
+    height: 100px ;
+    width: 150px;
+
+    display: block;
+    margin: 0 auto;
+    }
+p:hover, p:hover a, img:hover{
+    transform:  scale(1.16);
+    color:rgb(232, 11, 22);
+}
+p{
+    text-align: center;
+}
