@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Домашнее задание 13</title>
+    <style>
+        img{
+            height:200px;
+            width: 200px;
+           }
+        button{
+            height:400px;
+            width: 400px;
+            font-size: large;
+            font-style: italic;
+            border-radius: 150px;
+            background-color:aqua;
+              }
+        @media(max-width:768px)
+            {
+                body{font-size: small;}
+                button{
+                    height:auto;
+                    width: 100%;
+                    background-color:green;
+                    border-radius: 10px;
+                       }
+                img{
+                   width: 100vw;
+                   }
+            }
+
+
+        @media(min-width:768px) and (max-width:1024px)
+            {
+                body{font-size: medium;}
+                button{
+                    width: 300px;
+                    height: 20vh;
+                    background-color:yellow;
+                    border-radius: 100px;
+                      }
+                img{
+                    max-width: 80vw;
+                   }
+            }
+
+        @media(min-width:1024px)
+            {
+                body{
+                    text-align: center;
+                }
+                button{
+
+                    background-color:red;
+                    border-radius: 150px;
+                      }
+                img{
+
+                    max-width: 100vw;
+                   }
+                .con{
+                    display: flex;
+                    align-items:center;
+                    flex-direction: column;
+                }
+            }
+
+    </style>
+    <!-- Для мобильных устройств (ширина экрана до 768px):
+• Уменьшите размер шрифта для текста.
+• Кнопка должна занимать 100% ширины экрана.
+• Изображение должно быть адаптивным (меняться в зависимости от ширины
+экрана).
+Для планшетов (ширина экрана от 768px до 1024px):
+• Увеличьте размер шрифта для текста.
+• Кнопка должна иметь фиксированную ширину, но быть адаптивной по высоте.
+• Изображение должно иметь максимальную ширину 80% от ширины экрана.
+Для десктопов (ширина экрана более 1024px):
+• Текст и кнопка должны быть отцентрированы.
+• Изображение должно быть максимального размера и расположено в центре. -->
+</head>
+<body>
+    <h1>Домашнее задание 13</h1>
+    <p>Параграф текста </p>
+    <div class="con">
+    <img src="https://avatars.mds.yandex.net/i?id=79c8c43ae838fe2264a6c0e47c20cef7_l-5754725-images-thumbs&n=13">
+    <br>
+    <button>Кнопка</button>
+    </div>
+</body>
+</html>
